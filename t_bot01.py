@@ -20,7 +20,7 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):#Text to be s
 
 
 if __name__ == '__main__':
-    application = ApplicationBuilder().token('5599948853:AAH3DCmj0DFYPS4dAedYLQxyVJHt-Sy8O8w').build()
+    application = ApplicationBuilder().token('').build() #Token over Here
     
     start_handler = CommandHandler('start', start)
     help_handler = CommandHandler('help',help) #'help' is the text send to user.
